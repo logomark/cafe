@@ -23,23 +23,23 @@ a:hover{
 }
 
 header{
-    height: 400px;
+    height: 530px;
     width: 100%;
-    background-image: url("../img/cafe2.jpg");
+    background-image: url("../img/cafe1.jpg");
     background-repeat:no-repeat;
     background-size: cover;
     background-position:center;
     text-align: center;
-    color: #ffffff;
+    color: #89725C;
 }
 
 .header_text{
     font-size: 1.2em;
     font-family: "Didot";
     text-align: center;
-    color: #ffffff;
+    color: #89725C;
     text-transform: uppercase;
-    padding-top: 150px;
+    padding-top: 200px;
 	letter-spacing: 2px;
 	-webkit-animation: fadeIn .6s linear .6s both;
 	-moz-animation: fadeIn .6s linear .6s both;
