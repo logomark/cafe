@@ -25,10 +25,7 @@ a:hover{
 header{
     height: 640px;
     width: 100%;
-    background-image: url("../img/cafe1.jpg");
-    background-repeat:no-repeat;
-    background-size: cover;
-    background-position:center;
+    background: url("../img/cafe1.jpg") no-repeat center center fixed;
     text-align: center;
     color: #A58E78;
 }
@@ -59,7 +56,7 @@ header{
 
 .logos{
     text-align: center;
-    padding-top: 50px;
+    padding: 50px;
 }
 
 .logos li{
