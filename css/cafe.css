@@ -1,7 +1,54 @@
-h1 {
-  text-align: center;
+/*GENERAL*/
+body,html{
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #ffffff;
+	font-size: 17px;
+	font-family: 'EB Garamond', serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+*{
+	margin:0;
+	padding:0;
+}
+a{
+	color: #3d464d;
+	text-decoration: none;
+    transition: .15s;
+}
+a:hover{
+	opacity: .5;
+}
+
+header{
+    height: 400px;
+    width: 100%;
+    background-image: url("../img/cafe2.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:center;
+    text-align: center;
+    color: #ffffff;
+}
+
+.header_text{
+    font-size: 1.2em;
+    font-family: "Didot";
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding-top: 150px;
+	letter-spacing: 2px;
 }
 
 .logos{
-  text-align: center;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.logos li{
+    display: inline-block;
+    margin: 10px;
 }
